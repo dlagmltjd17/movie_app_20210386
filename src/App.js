@@ -32,7 +32,11 @@ const renderFood = dish => <Food name={dish.name} picture={dish.image} />;
 function App() {
   return (
     <div> 
-      {foodILike.map{dish => <Food Key={dish.name} name={dish.name} picture={dish.image}/>}}
+      <h1>Hello</h1>
+      <Food fav="kimchi" />
+      <Food fav="ramen" />
+      <Food fav="samgiopsal" />
+      <Food fav="chukumi" />
     </div>
     );
 }
