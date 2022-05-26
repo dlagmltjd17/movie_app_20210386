@@ -27,9 +27,9 @@ function Movie({title, year, summary, poster, genres}) {
 
 Movie.propTypes = {
     year: PropTypes.number.isRequired,
-    title: PropTypes.number.isRequired,
-    summary: PropTypes.number.isRequired,
-    poster: PropTypes.number.isRequired,
+    title: PropTypes.string.isRequired,
+    summary: PropTypes.string.isRequired,
+    poster: PropTypes.string.isRequired,
     genres: PropTypes.arrayOf(PropTypes.string).isRequired
 };
 
