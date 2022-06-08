@@ -32,7 +32,7 @@ function Detail() {
               </ul>
               <p className='dmovie_summary'>{location.state.summary}...</p>
             </div>
-          </div>
+          </div> // Detail 영역에 API에서 DB 불러오기
         );
       } else {
         return null;
